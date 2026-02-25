@@ -1,0 +1,16 @@
+{
+	"id": "hksilksong_deck",
+	"name": "Hollow Knight: Silksong Deck",
+	"display_name": "Hollow Knight: Silksong Deck",
+	"author": ["NEVER_Hiccups"],
+	"description": "Hollow Knight: Silksong Card Skins",
+	"prefix": "hksk",
+	"main_file": "main.lua",
+	"priority": 1,
+	"version": "1.0.0",
+	"dependencies": ["Steamodded"],
+	"badge_colour": "8f353c",
+	"badge_text_colour": "000000",
+	"allow_redistribution": true
+}
+

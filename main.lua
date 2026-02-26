@@ -8,12 +8,12 @@ SMODS.Atlas({
 	path = "hksilksong_lc.png",
 })
 
---[[SMODS.Atlas({
-	key = "hksilksong_şc",
+SMODS.Atlas({
+	key = "hksilksong_sc",
 	px = 71,
 	py = 95,
-	path = atlas_path_hc,
-})]]
+	path = "hksilksong_hc.png",
+})
 
 for _, suit in ipairs(sss) do
 	SMODS.DeckSkin({
@@ -21,7 +21,7 @@ for _, suit in ipairs(sss) do
 		suit = suit:gsub("^%l", string.upper),
 		ranks = rrr,
 		lc_atlas = "hksk_hksilksong_lc",
-		hc_atlas = "hksk_hksilksong_lc",
+		hc_atlas = "hksk_hksilksong_sc",
 		loc_txt = {
 			["en-us"] = "Silksong",
 		},
